@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap");
+
+/* vars with brand colors */
+:root {
+  --brand-primary-light: #6171aa;
+  --brand-primary-dark: #42559a;
+  --brand-bg-light: #eef9fa;
+}
+
+body {
+  background-color: var(--brand-primary-light);
+  font-family: "Open Sans", sans-serif;
+  margin: none;
+  padding: none;
+}

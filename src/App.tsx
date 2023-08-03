@@ -1,13 +1,15 @@
 //import bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import Layout from './layout/layout'
+import Home from './section/home/Home'
 
 function App() {
 
   return (
-    <h1>
-      test
-    </h1>
+    <Layout>
+      <Home />
+    </Layout>
   )
 }
 

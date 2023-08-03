@@ -1,0 +1,22 @@
+.logo-small {
+  width: 240px;
+  margin: 20px auto;
+  image-rendering: optimizeSpeed;
+}
+
+.bg-brand-light {
+  background-color: var(--brand-bg-light);
+}
+
+.navbar-brand-colors-menu {
+  color: var(--brand-primary-light);
+  margin-right: 3rem;
+  /* to upper case */
+  text-transform: uppercase;
+  /* add padding to top equvalent of 14px */
+  padding-top: 0.875rem;
+}
+
+.navbar-brand-colors {
+  color: var(--brand-primary-light);
+}
